@@ -1,0 +1,14 @@
+** Generic medium-loam soil -- initial winterkill testing (Black Sea winter wheat)
+** Soil hydraulics only. Snow (SnowMAUS) and FROSTOL parameters are injected as
+** overrides in the simulation notebook, NOT here.
+
+SOLNAM = 'generic_medium'
+
+SMW    =   0.120   ! soil moisture at wilting point   [cm3 cm-3]
+SMFCF  =   0.300   ! soil moisture at field capacity  [cm3 cm-3]
+SM0    =   0.430   ! soil moisture at saturation      [cm3 cm-3]
+CRAIRC =   0.060   ! critical soil air content        [cm3 cm-3]
+K0     =  15.000   ! hydraulic conductivity sat. soil [cm day-1]
+SOPE   =   1.000   ! max percolation rate root zone   [cm day-1]
+KSUB   =   1.000   ! max percolation rate subsoil     [cm day-1]
+RDMSOL = 120.000   ! maximum rootable depth of soil   [cm]

@@ -1,0 +1,13 @@
+# Tested with Python 3.13
+pcse==6.0.12        # fix_winterkill.py patches internals of this exact version
+pandas==3.0.1
+numpy==2.4.2
+scipy
+statsmodels
+matplotlib
+pyyaml
+requests
+xarray              # build_fetch_points.py
+netCDF4             # build_fetch_points.py
+geopandas==1.1.3    # join_oblasts.py
+jupyterlab

@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Licensed price data. Barchart's terms do not allow redistribution.
+data/futures_prices/**/*.csv
+
+# Large third-party input, download from source (see README)
+data/*.nc
+
+# Run-time checkpoints and caches
+output/*_partial.csv
+power_snow_cache/
+**/cell_cache/
+
+# Files set aside during cleanup
+_to_delete/
+
+# Local helper scripts
+_local/
+output/figures/*.pdf
